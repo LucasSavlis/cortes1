@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root {
+    font-family: 'sora', sans-serif;
+    // font-size: 62.5%; // PARA O REM FUNCIONAR TEM Q BOTAR ISSO AQUI
+}
+@import'partials/colors';
+@import'partials/header';
+@import'partials/layout';
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $primary-normal;
+}
+
+
+button {
+    font-family: 'sora', sans-serif;
+    cursor: pointer;
+}
+
+svg,img  {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;//animação cursor ao passar por cima
+    text-decoration: none;
+}
